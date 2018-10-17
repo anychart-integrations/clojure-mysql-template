@@ -49,7 +49,7 @@ $  mysql < database_backup.sql
 
 Run example:
 ```
-$ java -jar clojure-mysql-template.jar
+$ java -jar target/clojure-mysql-template.jar
 ```
 
 Open browser at http://localhost:8080/
@@ -58,10 +58,10 @@ Open browser at http://localhost:8080/
 Your workspace should look like:
 ```
 clojure-mysql-template/
-    doc/
-    public/
-        css/
-            style.css       # css style
+    resources/
+        public/
+            css/
+                style.css       # css style
     src/
         clojure_mysql_teamplte
             core.clj       # main code
