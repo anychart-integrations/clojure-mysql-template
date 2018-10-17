@@ -64,7 +64,7 @@ clojure-mysql-template/
             style.css       # css style
     src/
         clojure_mysql_teamplte
-            clore.clj       # main code
+            core.clj       # main code
     database_backup.sql     # MySQL database dump
     README.md
     LICENSE
