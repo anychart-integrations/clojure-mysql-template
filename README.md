@@ -12,7 +12,7 @@ To use this sample you must have JAVA installed, as described at [JAVA installat
 
 
 To check your installations, run the following command in the command line:
-```
+```bash
 $ java -version
 java version "1.8.0_181"
 Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
@@ -28,27 +28,27 @@ mysql  Ver 14.14 Distrib 5.5.52, for debian-linux-gnu (x86_64) using readline 6.
 To start this example run commands listed below.
 
 Clone the repository from github.com:
-```
+```bash
 $ git clone git@github.com:anychart-integrations/clojure-mysql-template.git
 ```
 
 Navigate to the repository folder:
-```
+```bash
 $ cd clojure-mysql-template
 ```
 
 Build project:
-```
+```bash
 $ lein uberjar
 ```
 
 Set up MySQL database, use -u -p flags to provide username and password:
-```
+```bash
 $  mysql < database_backup.sql
 ```
 
 Run example:
-```
+```bash
 $ java -jar target/clojure-mysql-template.jar
 ```
 
@@ -56,7 +56,7 @@ Open browser at http://localhost:8080/
 
 ## Workspace
 Your workspace should look like:
-```
+```bash
 clojure-mysql-template/
     resources/
         public/
